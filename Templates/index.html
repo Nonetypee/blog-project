@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+
+{% block body  %}
+
+<div class = "jumbotron text-center">
+
+    <h3>NoneType DevOps'a Hoşgeldiniz.</h3>
+    <p>Bu Sitede Geliştirici bir genç hakkında bilgiler bulunmaktadır.</p>
+
+</div>
+
+{% if islem == 1%}
+ <p>Birinci islem</p>
+
+ {% elif islem == 2%}
+ <p>İkinci islem</p>
+{% else %}
+<p>Cevabımız islem değilmiş..</p>
+{% endif %}
+
+{% endblock  %}
+
+
+
+
+
